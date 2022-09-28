@@ -1,4 +1,5 @@
-### Hi there 👋
+### Hola a todos.👋
+*Soy Juan David, un ingeniero en de sistemas en "formación", en segundo semestre de la universidad EAN* 😎💻
 
 <!--
 **JDavidgg/JDavidgg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
