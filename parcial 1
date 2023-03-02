@@ -21,7 +21,7 @@ public class Parcial1 {
             
             
             System.out.println("Qué desea escoger: ");
-            System.out.println("Entrada" + "\n" + "1).Arepas, 2).Papasfritas, 3).Nachos, 4).Nada ");
+            System.out.println("Entrada" + "\n" + "0).Arepas, 1).Papasfritas, 2).Nachos, 3).Nada ");
             int entrada = input.nextInt();
             System.out.println("¿Cuántas unidades?: ");
             int entradaon = input.nextInt();
@@ -38,7 +38,7 @@ public class Parcial1 {
             int Ventrada = precioentrada * entradaon;
             
             
-            System.out.println("Plato fuerte" + "\n" + "1).Churrasco, 2).Pollo_Frito, 3).ArrozOriental, 4).Nada ");
+            System.out.println("Plato fuerte" + "\n" + "0).Churrasco, 1).PolloFrito, 2).ArrozOriental, 3).Nada ");
             int plfuerte = input.nextInt();
             System.out.println("¿Cuántas unidades?: ");
             int plfuerteon = input.nextInt();
@@ -55,7 +55,7 @@ public class Parcial1 {
             int Vplfuerte = precioplfuerte * plfuerteon;
             
             
-            System.out.println("Bebida" + "\n" + "1).Limonada, 2).Gaseosa, 3).Cerveza, 4).Nada ");
+            System.out.println("Bebida" + "\n" + "0).Limonada, 1).Gaseosa, 2).Cerveza, 3).Nada ");
             int bebida = input.nextInt();
             System.out.println("¿Cuántas unidades?: ");
             int bebidaon = input.nextInt();
@@ -72,7 +72,7 @@ public class Parcial1 {
             int Vbebida = preciobebida * bebidaon;
             
             
-            System.out.println("Postre" + "\n" + "1).Fresas_con_Crema, 2).Brownie_con_Helado, 3).Churros, 4).Nada ");
+            System.out.println("Postre" + "\n" + "0).FresasconCrema, 1).BrownieconHelado, 2).Churros, 3).Nada ");
             int postre = input.nextInt();
             System.out.println("¿Cuántas unidades?: ");
             int postreon = input.nextInt();
