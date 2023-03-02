@@ -1,9 +1,11 @@
-package parcial;
+
+package parcial11;
+
 import java.util.Scanner;
 
-public class Parcial1 {
+public class Parcial11 {
 
-    
+
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
         
@@ -11,28 +13,28 @@ public class Parcial1 {
         String contraseña;
         
         System.out.println("Ingrese su Usuario: ");
-        Username = input.next();
+        username = input.next();
         System.out.println("Ingrese su Contraseña: ");
-        Contraseña = input.next();
+        contraseña = input.next();
         
-        if ("Restaurante".equals(Username) && "Uean123".equals(Contraseña)){
+        if ("Restaurante".equals(username) && "Uean123".equals(contraseña)){
             System.out.println("Datos ingresados correctos");
             
             
             
-            System.out.println("Qué desea escoger: ");
+            System.out.println("Que desea escoger: ");
             System.out.println("Entrada" + "\n" + "0).Arepas, 1).Papasfritas, 2).Nachos, 3).Nada ");
             int entrada = input.nextInt();
             System.out.println("¿Cuántas unidades?: ");
             int entradaon = input.nextInt();
             int precioentrada = 0;
-            if (entrada == 1){
+            if (entrada == 0){
                 precioentrada = 10000;
             }
-            if (entrada == 2){
+            if (entrada == 1){
                 precioentrada = 12000;
             }
-            if (entrada == 3){
+            if (entrada == 2){
                 precioentrada = 18000;
             }
             int Ventrada = precioentrada * entradaon;
@@ -43,13 +45,13 @@ public class Parcial1 {
             System.out.println("¿Cuántas unidades?: ");
             int plfuerteon = input.nextInt();
             int precioplfuerte = 0;
-            if (plfuerte == 1){
+            if (plfuerte == 0){
                 precioplfuerte = 25000;
             }
-            if (plfuerte == 2){
+            if (plfuerte == 1){
                 precioplfuerte = 20000;
             }
-            if (pfuerte == 3){
+            if (plfuerte == 2){
                 precioplfuerte = 21500;
             }
             int Vplfuerte = precioplfuerte * plfuerteon;
@@ -60,13 +62,13 @@ public class Parcial1 {
             System.out.println("¿Cuántas unidades?: ");
             int bebidaon = input.nextInt();
             int preciobebida = 0;
-            if(bebida == 1){
+            if(bebida == 0){
                 preciobebida = 5000;
             }
-            if(bebida == 2){
+            if(bebida == 1){
                 preciobebida = 4000;
             }
-            if(bebida == 3){
+            if(bebida == 2){
                 preciobebida = 7000;
             }
             int Vbebida = preciobebida * bebidaon;
@@ -77,27 +79,27 @@ public class Parcial1 {
             System.out.println("¿Cuántas unidades?: ");
             int postreon = input.nextInt();
             int preciopostre = 0;
-            if(postre == 1){
+            if(postre == 0){
                 preciopostre = 9000;
             }
-            if(postre == 2){
+            if(postre == 1){
                 preciopostre = 7000;
             }
-            if(postre == 3){
+            if(postre == 2){
                 preciopostre = 8000;
             }
             int Vpostre = preciopostre * postreon;
             
             int preciototal = Ventrada + Vplfuerte + Vbebida + Vpostre;
-            float iva = Vtotal * 1.19f;
+            float iva = preciototal * 1.19f;
             
-            System.out.println("Subtotal: "+ Vtotal);
-            System.out.println("El valor total a pagar con IVA incluido es de: " + iva);
+            System.out.println("Subtotal: "+ preciototal);
+            System.out.println("El valor a pagar con el IVA incluido es de: " + iva);
                
         }else{
             System.out.println("Datos incorrectos, inténtelo de nuevo");
         }
-        
     }
     
 }
+
